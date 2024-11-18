@@ -1,0 +1,986 @@
+@font-face {
+    font-family: "FuturaPT-Book";
+    src: url("../fonts/FuturaPT/FuturaPT-Book.ttf");
+}
+@font-face {
+    font-family: "FuturaPTBold";
+    src: url("../fonts/FuturaPT/FuturaPT-Bold.ttf");
+}
+@font-face {
+    font-family: "FuturaPTMedium";
+    src: url("../fonts/FuturaPT/FuturaPT-Medium.ttf");
+}
+@font-face {
+    font-family: "FuturaPTDemi";
+    src: url("../fonts/FuturaPT/FuturaPT-Demi.ttf");
+}
+@font-face {
+    font-family: "FuturaPTLight";
+    src: url("../fonts/FuturaPT/FuturaPT-Light.ttf");
+}
+body{
+    background: url("../img/body.png") no-repeat center 0% #5887EF;
+    margin: 0px auto;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'FuturaPTMedium';
+}
+.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+/* ------ header start ------*/
+.nav {
+    display: flex;
+    gap: 108px;
+}
+.logo{
+    border-right: 1px solid white;
+    padding: 0px 62px 0px 52px;
+    
+}
+.logo p{
+    font-family: 'FuturaPTMedium';
+    color:#FFFFFF;
+    font-size: 25px;
+}
+.logo p span {
+    font-family: 'FuturaPTBold';
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51.2px;
+    line-height: 51.2px;
+    border-bottom: 1px solid white;
+}
+header .menu{
+    display: flex;
+    gap: 108px;
+    list-style: none;
+    align-items: center;
+    font-family: 'FuturaPT-Book';
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'FuturaPT-Book';
+}
+.imgmenu{
+    background: url("../img/menu.png");
+    width: 27px;
+    height: 29px;
+    margin: 0 30px;
+}
+.dop-menu p{
+    font-family: 'FuturaPTBold';
+    font-size: 16px;
+    padding: 0 30px;
+    color:#FFFFFF;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.dop-menu {
+    display: flex;
+    align-items: center;
+}
+/* ------ header конец ------*/
+
+/* ------ начало content------*/
+/* ------ начало startscreen ------*/
+.content{
+    width: 930px;
+    margin: 0 auto;
+}
+.startscreen{
+    margin-top: 160px;
+}
+.startscreen h1 {
+    font-family:'FuturaPTBold';
+    font-size: 120px;
+    line-height: 120px;
+    color:#000000;
+}
+
+.startscreen button{
+    width: 370px;
+    height: 90px;
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-size: 30px;
+    font-family: 'FuturaPTMedium';
+    border-radius: 90px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    margin: 143px 0 0 130px;
+    gap:20px;
+    padding: 7px 0px 0px 95px;
+    width: 688px;
+    height: 68px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.39);
+}
+.form p {
+    font-size: 14px;
+    font-family: 'FuturaPTDemi';
+    line-height: 14px;
+    border-right: 1px solid white;
+    color:rgb(0, 0, 0);
+    padding-right: 25px;
+}
+.accept{
+    font-size: 25px;
+    font-family: 'FuturaPTDemi' ;
+    color:#000000;
+}
+.imgform {
+    background: url('../img/start.png');
+    width: 163px;
+    height: 243px;
+    position: absolute;
+    top: 612px;
+    margin-left: 85px;
+}
+/* ------ конец section startscreen ------*/
+
+/* ------ начало section work ------*/
+.work {
+    align-items: center;
+    margin: 100px 0px 0px 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.workcontent {
+    margin-top: 109.05px;
+}
+.work h2{
+    font-family: 'FuturaPTDemi';
+    text-align: center;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.work p {
+    font-family: 'FuturaPTLight';
+    font-size: 16px;
+}
+.work h3 {
+    font-weight: normal;
+   font-size: 18px;
+   font-family: 'FuturaPTMedium';
+}
+.work1{
+    display: flex;
+    gap: 197.74px;
+    margin: -50px 0px 0px 0px;
+   
+}
+.work2{
+    display: flex;
+    gap: 197.74px;
+    margin: 65px 0 0 0;
+}
+.w1 {
+    width: 178.26px;
+    height: 193.5px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.119);
+    border-radius: 20px;
+    line-height: 18px;
+}
+.imganalysis{
+    background: url("../img/lampa.png");
+    width: 55px;
+    height: 53px;
+    display: inline-block;
+    margin: 15px 0  0 0px;
+   
+}
+.imgdesign{
+    background: url("../img/design.png");
+    width: 49px;
+    height: 40.33px;
+    display: inline-block;
+    margin: 28px 0 0 0;
+}
+.imgdevelopment{
+    background: url("../img/development.png");
+    width: 50.11px;
+    height: 42.65px;
+    display: inline-block;
+    margin: 20px 0 0 10px;
+}
+.imgmaintenance {
+    background: url("../img/maintenance.png");
+    width: 43px;
+    height: 41px;
+    display:inline-block;
+    margin: 30px 0 0 -5px;
+}
+.imgTesting {
+    background: url("../img/testing.png");
+    width: 44px;
+    height: 42px;
+    display:inline-block;
+    margin: 30px 0 0 0;
+}
+.imgintegration {
+    background: url("../img/integration.png");
+    width: 42px;
+    height: 36px;
+    display:inline-block;
+    margin: 27px 0 0 8px;
+}
+.development {
+    color:#FFFFFF;
+}
+.analysis h3 {
+    margin: 6px 0 0 -6px;
+}
+.analysis p {
+    width: 155.52px;
+    margin: 10px 0 0 7px;
+}
+.design h3 {
+    margin: 6px 0 0 4px;
+}
+.design p {
+    width: 149.15px;
+    margin: 10px 0 0 12px;
+}
+.development h3 {
+    margin: 13px 0 0 10px;
+}
+.development p {
+    width: 149px;
+    margin: 10px 0 0 18px;
+}
+.maintenance h3 {
+    margin: 7px 0 0 -3px;
+}
+.maintenance p {
+    width: 155.52px;
+    margin: 11px 0 0 9px;
+}
+.testing h3 {
+    margin: 6px 0 0 7px;
+}
+.testing p {
+    width: 140px;
+    margin: 11px 0 0 20px;
+}
+.integration h3 {
+    margin: 12px 0 0 10px;
+}
+.integration p {
+    width: 167px;
+    margin: 10px 0 0 13px;
+}
+/* ------ конец section work ------*/
+/* ------   начало section Quality ------*/
+.Quality .content {
+    display: flex;
+    color:#FFFFFF;
+    width: 1172px;
+    margin: 160px auto 0px auto;
+    gap: 0px;
+}
+.q {
+    margin: 142px 0 0 0;
+}
+.q h3 {
+    font-size: 45px;
+    font-family: 'FuturaPTDemi';
+}
+.q p {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'FuturaPTLight';
+    width: 566px;
+    margin-top: 32px;
+}
+.qimg {
+    background: url("../img/image9.png");
+    width: 631px;
+    height: 566px;
+    margin: 65px 0 0 -20px;
+}
+/* ------ конец section Quality ------*/
+
+/* ------   начало section Always ------*/
+.Always .content {
+    width: 1440px;
+    display: flex;
+    margin: 0 auto;
+    color: #FFFFFF;
+    align-items: flex-end;
+}
+.Always h3{
+    font-size: 45px;
+    font-family: 'FuturaPTDemi';
+}
+.Always p {
+    font-size: 22px;
+    font-family: 'FuturaPTLight';
+    line-height: 33px;
+    margin-top: 30px;
+    width: 449px;
+    height: 90px;
+}
+.a {
+    margin: 0 0 52px 112px;
+    text-align: right;
+}
+.imgAlways {
+    background: url("../img/telefon.png") no-repeat;
+    width: 746px;
+    height: 520px;
+    transform: rotate(-0.19deg);
+    margin-top: 80px;
+}
+/* ------ конец section Always ------*/
+
+/* ------   начало section Individual ------*/
+.Individual {
+    border-bottom: 1px solid white;
+}
+.imgIndividual {
+    background: url("../img/image7.png");
+    width: 570px;
+    height: 855px;
+    margin: 111px 0  0 -7px;
+}
+.Individual .content {
+    display: flex;
+    color: #FFFFFF;
+    width: 1262px;
+
+}
+.Individual h3 {
+    font-size: 45px;
+    font-family: 'FuturaPTDemi';
+}
+.Individual p {
+    font-size: 22px;
+    font-family: 'FuturaPTLight';
+    line-height: 30px;
+    width: 698px;
+    margin-top: 32px;
+}
+.i {
+    height: 120px;
+    margin: 368px 0  0 46px;
+}
+/* ------ конец section Individual ------*/
+
+/* ------   начало section Experiense ------*/
+.Experience .content{
+    margin: 305px 0 0 -120px;
+    width: 1168px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 201.54px;
+}
+.Experience h3 {
+    font-size: 60px;
+    line-height: 30px;
+    font-family: 'FuturaPTDemi';
+    text-align: center;
+}
+.Experience p {
+    font-size: 25px;
+    font-family: 'FuturaPT-Book';
+    text-align: center;
+}
+.e {
+    display: flex;
+    gap: 101px;
+    margin: 100px 0 0 0px;
+}
+.imgexper1 {
+    background: url("../img/image11.png");
+    width: 323px;
+    height: 215px;
+    margin-top: 23px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.imgexper2 {
+    background: url("../img/image12.png");
+    width: 322px;
+    height: 213px;
+    margin-top: 15px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.imgexper3 {
+    background: url("../img/Group30.png");
+    width: 322px;
+    height: 213px;
+    margin-top: 25px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.exper {
+    width: 322px;
+    height: 295px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.119);
+}
+.t1 {
+    background: rgba(65, 63, 81, 0.273);
+}
+.t1 p{
+    margin-top: 17px;
+    line-height: 25px;
+}
+.t2 p{
+    margin-top: 26px;
+}
+.t3 p{
+    margin-top: 26px;
+}
+.t2 button {
+    width: 86px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px;
+    background: #FFFFFF;
+    font-size: 50px;
+    border: none;
+    margin-top: 145px;
+}
+.t3 button {
+    width: 86px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px;
+    background: #FFFFFF;
+    border: none;
+    font-size: 50px;
+    margin-top: 143px;
+}
+.t1 button {
+    width: 118px;
+    height: 96.05px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px;
+    background: #FFFFFF;
+    border: none;
+    font-size: 50px;
+    margin-top: 116.95px;
+    
+}
+/* ------ конец section Experiece ------*/
+
+/* ------   начало section Testimonials ------*/
+.Testimonials {
+    margin-top: 272px;
+    color: #FFFFFF;
+}
+.Testimonials h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'FuturaPTDemi';
+    padding: 0 0 71px 0;
+}
+.tes3 p {
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'FuturaPT-Book';
+}
+.testim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.tes3 {
+    width: 496px;
+    height: 283px;
+    background:rgba(255, 255, 255, 0.119);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 24px;
+    padding: 51px;
+}
+.tes1, .tes5 {
+    width: 387.13px;
+    height: 212px;
+    background:rgba(255, 255, 255, 0.119);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 25.14px;
+    margin: 0 0 0;
+    padding: 31px;
+}
+.Testimonials button {
+    width: 66.96px;
+    height: 66.96px;
+    border-radius: 20px;
+    background:  rgba(255, 255, 255, 0.119);
+    border: none;
+    transform: rotate(-45deg);
+    position: relative;
+}
+.strelca {
+    position: absolute;
+    left: 24%;
+    top: 12%; 
+    color: white;
+    font-size: 36px;
+    transform: rotate(45deg);
+}
+.strelkar {
+    left: 24%;
+    top: 12%; 
+}
+
+.imgtes1 {
+    background: url("../img/Ellipse14.png");
+    width: 36.87px;
+    height: 36.87px;
+    margin: -40px 0 0 -29px;
+}
+.imgtes3 {
+    background: url("../img/chelovek.png") no-repeat;
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin: -62px 0 0 -25px;
+}
+.imgtes5 {
+    background: url("../img/Ellipse14.png");
+    width: 36.87px;
+    height: 36.87px;
+    margin: -40px 0 0 -20px;
+}
+.tochki {
+    background: url("../img/tochki.png") no-repeat;
+    width: 118.77px;
+    height: 12.77px;
+    margin: 0 auto;
+    margin-top: 186px;
+}
+/* ------ конец section Testimonials ------*/
+
+/* ------   начало section Forms ------*/
+.Forms {
+    width: 1440px;
+    background: url("../img/облако.png") no-repeat 0% 27%,  url("../img/oblak.png") no-repeat 337% 110%;
+    margin: 0 auto;
+    padding-bottom: 208px;
+}
+.Forms .content{
+    
+    padding: 328.23px 0px 0px 153px
+}
+.Forms h2 {
+    font-size: 40px;
+    font-family: FuturaPTDemi;
+    margin: 0 auto;
+}
+input {
+    width: 622px;
+    height: 47px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    font-size: 25px;
+    font-family: 'FuturaPTLight' ;
+    color: rgba(19, 13, 13, 0.23);
+    padding: 24px;
+
+}
+.Forms button{
+    width: 622px;
+    height: 47px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    color: #FFFFFF;
+    background: #000000;
+    font-size: 25px;
+}
+/* ------ конец section Forms ------*/
+
+/* ------   начало footer ------*/
+footer {
+    background: rgba(255, 255, 255, 0.23);
+    height: 136px;
+    margin: 0 auto;
+    width: 1440px;
+}
+.footer {
+    display: flex;
+    color:#FFFFFF;
+    gap: 724px;
+    padding: 42.5px 136px 0 131px;
+}
+.in {
+    background: url("../img/linkedin.png");
+    width: 25px;
+    height: 23.61px;
+}
+.facebook {
+    background: url("../img/facebook.png");
+    width: 25px;
+    height: 23.61px;
+}
+.inst {
+    background: url("../img/instagram.png");
+    width: 25px;
+    height: 23.61px;
+}
+.l1 {
+    display: flex;
+    gap: 56px;
+    font-size: 22px;
+    font-family: 'FuturaPT-Book';
+    line-height: 30px;
+}
+.cloud {
+    font-size: 14px;
+    font-family: 'FuturaPTLight';
+}
+.right {
+    display: flex;
+    gap: 43px;
+    margin: 12px 0 0 0;
+}
+/* ------ конец footer ------*/
+header .burger-menu { 
+    display: none;
+}
+
+/* ------   мобильная версия ------*/ 
+@media (min-width: 375px) and (max-width: 720px) {
+    .container {
+        width: 100%;
+    }
+    .nav {
+        display: flex;
+        gap: 108px;
+        height: auto;
+    }
+    .logo{
+        border-right: none;
+        padding: 25px 0 0 13px;
+        
+    }
+    .logo p{
+        font-size: 20px;
+    }
+    header .container{
+        border-bottom: none;
+        height: auto;
+    }
+    header .menu{
+        display: none;
+    }
+    a{
+        font-size: 1em;
+    }
+    .dop-menu {
+        display: none;
+    }
+    header .burger-menu {
+        display: block;
+        background: rgba(0, 0, 0, 0.4);
+        color: #FFFFFF;
+        padding: 5px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border-radius: 10px;
+    }
+    .startscreen {
+        margin-top: 90px;
+    }
+    .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .startscreen h1 {
+        font-size: 1em;
+        line-height: 1em;
+        text-align: center;
+    }
+    .startscreen button{
+        width: 250px;
+        height: 40px;
+        font-size: 1em;
+    }
+    .form {
+        display: block;
+        margin: 60px 10px 0 10px;
+        padding: 15px;
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.39);
+    }
+    .form p {
+        font-size: 1em;
+        line-height: 1em;
+        border-right: none;
+        border-bottom: 1px solid white;
+        padding: 10px;
+    }
+    .accept{
+        font-size: 1em;
+        text-align: center;
+        padding: 5px;
+    }
+    .imgform {
+        width: 0px;
+        height: 0px;
+    }
+    .work {
+        margin: 40px auto;
+    }
+    .work h2{
+        font-size: 2em;
+    }
+    .work p {
+        font-size: 1em;
+    }
+    .work h3 {
+       font-size: 1em;
+    }
+    .work1{
+        display: block;
+        margin: 0 auto;
+    }
+    .work2{
+        display: block;
+        margin: -5px auto;
+    }
+    .w1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .workcontent {
+        display: flex;
+        gap: 10px;
+        margin: 50px auto;
+    }
+    .Quality .content {
+        display: block;
+        width: auto;
+        margin:0px auto;
+    }
+    .q {
+        margin: 142px 0 0 10px;
+    }
+    .q h3 {
+        font-size: 2em;
+    }
+    .q p {
+        font-size: 1em;
+        line-height: 20px;
+        width: 275px;
+        margin-top: 5px;
+    }
+    .qimg {
+        margin: -300px 0 0 225px;
+    }
+    .Always{
+        background: url("../img/telefon.png") no-repeat -460px 0%;
+    }
+    .Always .content {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        height: 522px;
+    }
+    .Always h3{
+        font-size: 2em;
+    }
+    .Always p {
+        font-size: 1em;
+        line-height: 23px;
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+    }
+    .a {
+        margin: -81px 10px 0 0;
+        
+    }
+    .imgAlways {
+        width: 0px;
+        height: 0px;
+    }
+    .Individual {
+        border-bottom: none;
+    }
+    .imgIndividual {
+        background: url("../img/image7.png");
+        width: 570px;
+        height: 855px;
+        margin: -260px 0  0 70px;
+    }
+    .Individual .content {
+        display: block;
+        width: auto;
+        margin: -200px auto;
+    }
+    .Individual h3 {
+        font-size: 2em;
+    }
+    .Individual p {
+        font-size: 1em;
+        font-family: 'FuturaPTLight';
+        line-height: 20px;
+        width: 250px;
+        margin-top: 10px;
+    }
+    .i {
+        height: 0px;
+        margin: 450px 0  0 20px;
+    }
+
+    .Experience .content{
+        width: auto; 
+        margin-top: 300px;
+    }
+    .Experience h3 {
+        font-size: 2em;
+        line-height: 20px;
+    }
+    .Experience p {
+        font-size: 1em;
+    }
+    .e {
+        display: block;
+        margin: 50px 25px;
+    }
+    .imgexper1 {
+        margin-top: 60px;
+    }
+    .imgexper2 {
+        margin-top: 31px;
+    }
+    .imgexper3 {
+        margin-top: 61px;
+    }
+
+    .Testimonials {
+        margin-top: 70px;
+    }
+    .Testimonials h2 {
+        font-size: 2em;
+        padding: 0 0 40px 0;
+    }
+    .tes3 p {
+        font-size: 1em;
+        line-height: 16px;
+    }
+    .testim {
+        gap: 15px;
+        margin: 0 10px 0 10px;
+    }
+    .tes3 {
+        width: auto;
+        height: auto;
+        display: flex;
+        gap: 50px;
+    }
+    .tes1, .tes5 {
+        display: none;
+    }
+    .Testimonials button {
+        width: 42.96px;
+        height: 42.96px;
+        border-radius: 10px;
+    }
+    .strelca {
+        position: absolute;
+        left: 24%;
+        top: 12%; 
+        color: white;
+        font-size: 26px;
+        transform: rotate(45deg);
+    }
+    .strelkar {
+        left: 24%;
+        top: 12%; 
+    }
+    .imgtes3 {
+        width: 0px;
+        height: 0px;
+    }
+    .tochki {
+        width: 0px;
+        height: 0px;
+    }
+    .Forms {
+        width: auto;
+        margin: 0px auto;
+        padding-bottom: 38px;
+    }
+    .Forms .content{
+        margin: 0 -110px;
+    }
+    .Forms h2 {
+        font-size: 1.5em;
+        margin: 0 0 0 65px;
+        text-align: center;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+        font-size: 1em;
+        padding: 14px;
+    }
+    .Forms button{
+        width: 300px;
+        height: 40px;
+        font-size: 1em;
+    }
+    footer {
+        height: auto;
+        margin: 0 auto;
+        width: auto;
+    }
+    .footer {
+        gap: 12px;
+        padding: 0.5px 0px 0 20px;
+    }
+    .l1 {
+        display: flex;
+        gap: 38px;
+        font-size: 0.5em;
+        line-height: 20px;
+    }
+    .cloud {
+        font-size: 0.5em;
+        font-family: 'FuturaPTLight';
+        margin: 5px 0 0 0;
+    }
+    .light {
+        display: flex;
+        gap: 26px;
+        margin: 0 auto;
+    }
+    .right {
+        display: none;
+    }
+}
